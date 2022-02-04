@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/switch.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+
+    <body>
+       
+       <header> 
+        <div class="top">
+            
+        </div>  
+        <div class="logoHolder">
+            <div class="logo">
+                <img src="./logo.png" alt="logo">
+            </div>
+            </div>
+            <nav id="topnav">
+                <ul class="topmenu">
+                    <li class="active">
+                        <a href="#">ABOUT NEP</a>
+            
+                    </li>
+                    <li>
+                        <a href="#">THE PROGRAM</a>
+            
+                    </li>
+                    <li>
+                        <a href="#">MEDIA</a>
+            
+                    </li>
+                    <li>
+                        <a href="#">CONTACT US</a>
+            
+                    </li>
+                    <li id="apply">
+                        <a href="#">APPLY</a>
+            
+                    </li>
+
+                    
+
+                </ul>
+            </nav>
+       </header>
+       <div>
+        <h2 id="title"><strong>NEP 2.0: EDITION 2020</strong> </h2>
+          
+          <textarea id="intro" name="introP" rows="10" cols="50">
+       The 2020 edition of NEP is a 9-month program designed to develop Emirati technical leaders who will shape the future of 25 industry sectors critical to the UAE. 
+       
+       Built with agility, health, and safety in mind, the hybrid program will include both online and onsite sessions based on the latest in learning strategy, mentoring by UAE sector leaders, immersive learning experiences, sector-specific learning, and an individual Capstone Project addressing a major challenge in each sector. 
+           </textarea>
+           
+       <div class="people"><img src="./people.png" alt="people">
+       </div>
+       <div class="sectors">
+        <ul class="types">
+            <li class="maintype">
+                <img src="./social.png" alt="social">
+                <span class="caption">Social Development</span>
+               
+                    <ul class="domains">
+                    <li>
+                        <img src="./Public services administration.png" alt="eco">
+                        <span class="caption">Public services administration</span>
+                        
+            
+                    </li>
+                    <li>
+                        <img src="./policy making.png" alt="eco">
+                        <span class="caption">Policy making</span>
+                        
+            
+                    </li>
+                    <li>
+                        <img src="community and service.png" alt="eco">
+                        <span class="caption">Community and social services</span>
+                        
+            
+                    </li>
+                    <li>
+                        <img src="./health and wellbeing.png" alt="eco">
+                        <span class="caption">Health and wellbeing</span>
+                        
+            
+                    </li>
+                    <li>
+                        <img src="./culture.png" alt="eco">
+                        <span class="caption">culture</span>
+                        
+            
+                    </li>
+                    <li>
+                        <img src="./sports.png" alt="eco">
+                        <span class="caption">Sports</span>
+                        
+            
+                    </li>
+                    <li>
+                        <img src="./education.png" alt="eco">
+                        <span class="caption">Education</span>
+                        
+            
+                    </li>
+                    <li>
+                        <img src="./community dev.png" alt="eco">
+                        <span class="caption">Community development</span>
+                        
+            
+                    </li>
+                    <li>
+                        <img src="./third sector.png" alt="eco">
+                        <span class="caption">Third sector</span>
+                        
+            
+                    </li>
+    
+                </ul>
+                
+            </li>
+            <li class="maintype">
+                <img src="./ecoDev.png" alt="eco">
+                <span class="caption">Economic Development</span>
+                <ul class="domains">
+                  <li>
+                      <img src="./Public services administration.png" alt="eco">
+                      <span class="caption">Public services administration</span>
+                      
+          
+                  </li>
+                  <li>
+                    <img src="./Public services administration.png" alt="eco">
+                    <span class="caption">Public services administration</span>
+                    
+        
+                </li>
+                <li>
+                  <img src="./Public services administration.png" alt="eco">
+                  <span class="caption">Public services administration</span>
+                  
+      
+              </li>
+              <li>
+                <img src="./Public services administration.png" alt="eco">
+                <span class="caption">Public services administration</span>
+                
+    
+            </li>
+            <li>
+              <img src="./Public services administration.png" alt="eco">
+              <span class="caption">Public services administration</span>
+              
+    
+          </li>
+          <li>
+            <img src="./Public services administration.png" alt="eco">
+            <span class="caption">Public services administration</span>
+            
+    
+        </li>
+        <li>
+          <img src="./Public services administration.png" alt="eco">
+          <span class="caption">Public services administration</span>
+          
+    
+      </li>
+      <li>
+        <img src="./Public services administration.png" alt="eco">
+        <span class="caption">Public services administration</span>
+        
+    
+    </li>
+    <li>
+      <img id="hide"src="./Public services administration.png" alt="eco">
+      <span id="hide" class="caption">Public services administration</span>
+      
+    
+    </li>
+    
+                </ul>
+                
+    
+            </li>
+            <li class="maintype">
+                <img src="./infra.png" alt="logo">
+                <span class="caption">Infrastructure and environment</span>
+                <ul class="domains">
+                  <li>
+                      <img src="./Public services administration.png" alt="eco">
+                      <span class="caption">Public services administration</span>
+                      
+          
+                  </li>
+                  <li>
+                    <img src="./Public services administration.png" alt="eco">
+                    <span class="caption">Public services administration</span>
+                    
+        
+                </li>
+                <li>
+                  <img src="./Public services administration.png" alt="eco">
+                  <span class="caption">Public services administration</span>
+                  
+      
+              </li>
+              <li>
+                <img src="./Public services administration.png" alt="eco">
+                <span class="caption">Public services administration</span>
+                
+    
+            </li>
+            <li>
+              <img id="hide"src="./Public services administration.png" alt="eco">
+              <span id="hide" class="caption">Public services administration</span>
+              
+    
+          </li>
+          <li>
+            <img id="hide"src="./Public services administration.png" alt="eco">
+            <span id="hide" class="caption">Public services administration</span>
+            
+    
+        </li>
+        <li>
+          <img id="hide"src="./Public services administration.png" alt="eco">
+          <span id="hide"class="caption">Public services administration</span>
+          
+    
+      </li>
+      <li>
+        <img id="hide" src="./Public services administration.png" alt="eco">
+        <span id="hide" class="caption">Public services administration</span>
+        
+    
+    </li>
+    <li>
+      <img id="hide" src="./Public services administration.png" alt="eco">
+      <span id="hide"class="caption">Public services administration</span>
+      
+    
+    </li>
+                </ul>
+    
+            </li>
+            <li class="maintype">
+                <img src="./security.png" alt="logo">
+                <span class="caption">Security and foreign affairs</span>
+                <ul class="domains">
+                  <li>
+                      <img src="./Public services administration.png" alt="eco">
+                      <span class="caption">Public services administration</span>
+                      
+          
+                  </li>
+                  <li>
+                    <img src="./Public services administration.png" alt="eco">
+                    <span class="caption">Public services administration</span>
+                    
+        
+                </li>
+                <li>
+                  <img src="./Public services administration.png" alt="eco">
+                  <span class="caption">Public services administration</span>
+                  
+      
+              </li>
+              <li>
+                <img src="./Public services administration.png" alt="eco">
+                <span class="caption">Public services administration</span>
+                
+    
+            </li>
+            <li>
+              <img id="hide"src="./Public services administration.png" alt="eco">
+              <span id="hide" class="caption">Public services administration</span>
+              
+    
+          </li>
+          <li>
+            <img id="hide"src="./Public services administration.png" alt="eco">
+            <span id="hide"class="caption">Public services administration</span>
+            
+    
+        </li>
+        <li>
+          <img id="hide"src="./Public services administration.png" alt="eco">
+          <span id="hide"class="caption">Public services administration</span>
+          
+    
+      </li>
+       <li>
+                      <img id="hide"src="./Public services administration.png" alt="eco">
+                      <span id="hide"class="caption">Public services administration</span>
+                      
+          
+                  </li>
+                  <li>
+                    <img id="hide"src="./Public services administration.png" alt="eco">
+                    <span id="hide" class="caption">Public services administration</span>
+                    
+        
+                </li>
+                
+    
+            </li>
+          
+        </ul>
+       </div>
+       </div>
+       <!-- <div class="absolute"><img src="./books.png" alt="books"></div>-->
+      </div>
+       </div>
+       
+       
+     <div> <h1 id="mentors">MEET THE MENTORS AND PAPRTICIPANTS</h1></div>
+    <form class="toggle-switch">
+      <label class="switch">
+            <input type="checkbox" id="toggle" checked="true">
+            <div class="slider round"></div>
+        </label>
+    </form>
+    
+    <div id="menu1">
+      
+        <div class="container">
+      <div class="first">
+      <img src="./image.jpg" alt="image1">
+      
+      </div>
+      <div class="second">
+      <img src="./image.jpg" alt="image1">
+      </div>
+      <div class="third">
+      <img src="./image.jpg" alt="image1">
+      </div>
+      <div class="fourth">
+      <img src="./image.jpg" alt="image1">
+      </div>
+      
+       </div>
+
+      <div class="container">
+          <div class="first">
+          <img src="./image.jpg" alt="image1">
+          </div>
+          <div class="second">
+          <img src="./image.jpg" alt="image1">
+          </div>
+          <div class="third">
+          <img src="./image.jpg" alt="image1">
+          </div>
+          <div class="fourth">
+          <img src="./image.jpg" alt="image1">
+          </div>
+
+     
+          </div>
+
+          <div class="container">
+              <div class="first">
+              <img src="./image.jpg" alt="image1">
+              
+              </div>
+              <div class="second">
+              <img src="./image.jpg" alt="image1">
+              </div>
+              <div class="third">
+              <img src="./image.jpg" alt="image1">
+              </div>
+              <div class="fourth">
+              <img src="./image.jpg" alt="image1">
+              </div>
+              </div>
+
+              <div class="container">
+                  <div class="first">
+                  <img src="./image.jpg" alt="image1">
+                  
+                  </div>
+                  <div class="second">
+                  <img src="./image.jpg" alt="image1">
+                  </div>
+                  <div class="third">
+                  <img src="./image.jpg" alt="image1">
+                  </div>
+                  <div class="fourth">
+                  <img src="./image.jpg" alt="image1">
+                  </div>
+                  </div>
+      
+      
+    </div>
+    <div id="menu2">
+      <div class="container">
+        <div class="first">
+        <img src="./image2.webp" alt="image1">
+        
+        </div>
+        <div class="second">
+        <img src="./image2.webp" alt="image1">
+        </div>
+        <div class="third">
+        <img src="./image2.webp" alt="image1">
+        </div>
+        <div class="fourth">
+        <img src="./image2.jpg" alt="image1">
+        </div>
+        </div>
+
+        <div class="container">
+          <div class="first">
+          <img src="./image2.webp" alt="image1">
+          
+          </div>
+          <div class="second">
+          <img src="./image2.webp" alt="image1">
+          </div>
+          <div class="third">
+          <img src="./image2.webp" alt="image1">
+          </div>
+          <div class="fourth">
+          <img src="./image2.jpg" alt="image1">
+          </div>
+          </div>
+
+          <div class="container">
+            <div class="first">
+            <img src="./image2.webp" alt="image1">
+            
+            </div>
+            <div class="second">
+            <img src="./image2.webp" alt="image1">
+            </div>
+            <div class="third">
+            <img src="./image2.webp" alt="image1">
+            </div>
+            <div class="fourth">
+            <img src="./image2.jpg" alt="image1">
+            </div>
+            </div>
+            <div class="container">
+              <div class="first">
+              <img src="./image2.webp" alt="image1">
+              
+              </div>
+              <div class="second">
+              <img src="./image2.webp" alt="image1">
+              </div>
+              <div class="third">
+              <img src="./image2.webp" alt="image1">
+              </div>
+              <div class="fourth">
+              <img src="./image2.jpg" alt="image1">
+              </div>
+              </div>
+    </div>
+    
+       </div>
+  
+                <div class="programs">
+                  <div id="mentors"><h1>Program Philosophy</h1></div>
+                    <div class="program">
+                      
+                      <ul class="program-headers">
+                        <li>
+                          <figure>
+                            <img src="NEP.png" alt="Trulli" >
+                            <figcaption class="fig1"><textarea id="explain" name="introP" rows="8" cols="50">This is not an ordinary training course—it is a workspace to create, reflect, critique and stretch to new places. The NEP teaches mindsets to help the participant become a better critical thinker across their sector, regardless of job title. The experience will change how they think, reflect and work.</textarea></figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="hand.png" alt="Trulli" >
+                            <figcaption><textarea id="explain" name="introP" rows="8" cols="50">The NEP is designed for high-performing and open-minded Emiratis with 4 to 8 years of sector–specific work expertise who want to level up their ability to foster change, deepen their understanding of sector trends and practices, and contribute to the UAE’s centennial vision for economic renewal and growth.</textarea></figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="lamp.png" alt="Trulli">
+                            <figcaption><textarea id="explain" name="introP" rows="8" cols="50">This program is not meant as a deep dive into technical competencies. However, participants will have opportunities to build up sectorial expertise through personalized micro-learning tasks and resources.</textarea></figcaption>
+                          </figure>
+                        </li>
+                  
+                      </ul>
+                    </div>-->
+                  
+                    <div class="program">
+                      <ul class="program-headers">
+                        <li>
+                          <figure>
+                            <img src="./project.png" alt="Trulli" >
+                            <figcaption><textarea id="explain" name="introP" rows="8" cols="50">Creating is the best way to learn and the NEP will engage participants’ creativity with a series of small sprint assignments, personal development planning, dialogue with practitioners in their field, in-class exercises with professors, and a major Capstone Project to put ideas into action.
+                            </textarea></figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="./hand.png" alt="Trulli" >
+                            <figcaption><textarea id="explain" name="introP" rows="6" cols="50">The experience is underpinned by mindset-based learning comprised of five enduring, well-rounded building blocks for lifelong development: self-reflection, looking outward and embracing diverse perspectives, interpersonal skills, critical thinking and problem solving and making change happen.
+                            </textarea>
+                            </figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="lamp.png" alt="Trulli">
+                            <figcaption><textarea id="explain" name="introP" rows="6" cols="50">Along the way, participants will receive personalized support through one-on-one mentorship with industry leaders, advising from sector experts, and peer networking during and after the program.
+                            </textarea></figcaption>
+                          </figure>
+                        </li>
+                  
+                      </ul>
+                    </div>
+                </div>
+
+                    
+
+
+                      <h2 id="mentors">FOUR WORKSTREAMS</h2>
+
+                      <textarea id="workstream" name="workstreams" rows="5" cols="80">NEP uses a hybrid model of virtual and in-person transformational learning. Participants will engage in team-building immersion, mentoring from accomplished sector leaders, dialogue with top professors and guest VIPs, site visits, creating a Personal Development Plan, learn-by-doing assignments, and a Capstone Project, including coaching and support for post-program implementation.
+                      </textarea>
+                      
+                      <div class="workstream-headers">
+                        <ul class="types1">
+                            <li>
+                                <img src="./talk.png" alt="talk">
+                                <span class="caption1">Mentoring with Sector Leaders</span>
+                            </li>
+                            <li>
+                              <img src="./project.png" alt="project">
+                              <span class="caption1">Capstone Projects 
+                                Addressing Sector Issues</span>
+                          </li>
+                          <li>
+                            <img src="./stair.png" alt="stair">
+                            <span class="caption1">Immersive Experience</span>
+                        </li>
+                        <li>
+                          <img src="./lamp.png" alt="lamp">
+                          <span class="caption1">Sector-Specific
+                            Coursework</span>
+                      </li>
+                        </ul>
+                      </div>
+
+                      
+
+                      <div class="plans">
+                        <h1 id="successPlan">Success Plan</h1>
+                        <textarea name="theplans" id="plan" cols="90" rows="5">The overall Success Plan strategy is formative. Evaluation of participants’ learning will take place throughout the program as they engage in hands-on activities individually or in small groups. It will include self, peer, and faculty review.  Evaluation includes the following components:</textarea>
+                       <img id="chart" src="./chart.png" alt="chart">
+                       
+                      </div>
+
+
+                      <form class="subscribe">
+                        <div class="containers">
+                          <h2>Subscribe to our Newsletter</h2>
+                         
+                        </div>
+                      
+                        <div class="containers" style="background-color:white">
+                          <input type="text" placeholder="Name" name="name" required>
+                          <input type="text" placeholder="Email address" name="mail" required>
+                          
+                        </div>
+                      
+                        <div class="containers">
+                          <input type="submit" value="Subscribe">
+                        </div>
+                      </form>
+                        <div class="notify">
+                           <div> <textarea id="attention" name="introP" rows="2" cols="50">PLEASE NOTE THAT APPLICATIONS TO JOIN THE CURRENT PROGRAM ARE CLOSED.
+                            </textarea>
+                        </div> 
+                        <div><textarea id="message" name="introP" rows="2" cols="50">Applications for the 3rd edition of NEP will be launched soon. Stay tuned!
+                            </textarea>
+                    
+                        </div>
+                      
+                        
+                      
+                    
+                    
+                    </div>
+                    <div class="end">
+                      <div class="logo">
+                        <img src="./logoend.png" alt="logo">
+                    
+                    </div>
+                    <nav id="bottomnav">
+                      <ul class="bottommenu">
+                          <li>
+                              <a href="#">ABOUT NEP</a>
+                    
+                          </li>
+                          <li>
+                              <a href="#">THE PROGRAM</a>
+                    
+                          </li>
+                          <li>
+                              <a href="#">MEDIA</a>
+                    
+                          </li>
+                          <li>
+                              <a href="#">CONTACT US</a>
+                    
+                          </li>
+                        
+                    
+                          
+                    
+                      </ul>
+                    </nav>
+
+                      
+
+                    
+   
+    </body>
+</html>
